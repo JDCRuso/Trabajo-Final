@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Supermercado El Pichi</title>
+
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <img src="img/logo.jpg" id="logo">
+                </div>
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                                <img src="" id="img-carrito">
+                                <div id="carrito">
+                                        
+                                        <table id="lista-carrito" class="u-full-width">
+                                            <thead>
+                                                <tr>
+                                                    <th></th>
+                                                    <th>Nombre</th>
+                                                    <th>Precio</th>
+                                                    <th>Cantidad</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody></tbody>
+                                        </table>
+    
+                                        <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                                </div>
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+        </div>
+        </header>
+    
+    
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                    <div class="six columns">
+                        <div class="contenido-hero">
+                                <h2>Supermercado El Pichi</h2>
+                                <p>Compra Online</p>
+                                <form action="#" id="busqueda" method="post" class="formulario">
+                                    <input class="u-full-width" type="text" placeholder="Busca tu item" id="buscador">
+                                    <input type="submit" id="submit-buscador" class="submit-buscador">
+                                </form>
+                        </div>
+                    </div>
+            </div> 
+        </div>
+    </div>
+
+    <div class="barra">
+        <!--<div class="container">
+            <div class="row">
+                    <div class="four columns icono icono1">
+                        <p>Las mejores ofertas del condado <br>
+                        Explora  los temas más recientes</p>
+                    </div>
+                    <div class="four columns icono icono2">
+                        <p>Productos en descuento <br>
+                        Aprende con distintos estilos</p>
+                    </div>
+                    <div class="four columns icono icono3">
+                        <p>Descuentos para socios<br>
+                        </p>
+                    </div>
+            </div>
+        </div>
+    -->
+
+    </div>
+
+    <div id="lista-items" class="container">
+        <h1 id="encabezado" class="encabezado">Productos en Oferta</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/leche.png" class="imagen-item u-full-width">
+                    <div class="info-card">
+                        <h4>Leche Milk</h4>
+                        <p>La Serenosima</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$200  <span class="u-pull-right ">$150</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/donas.png" class="imagen-item u-full-width">
+                        <div class="info-card">
+                            <h4>Donas Homero</h4>
+                            <p>Guaymallen</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$300  <span class="u-pull-right ">$220</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar Al Carrito</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/cocacola.webp" class="imagen-item u-full-width">
+                        <div class="info-card">
+                            <h4>Coca Cola</h4>
+                            <p>Coca Cola Company</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$230  <span class="u-pull-right ">$200</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/puretomate.webp" class="imagen-item u-full-width">
+                    <div class="info-card">
+                        <h4>Pure de Tomate</h4>
+                        <p>Campagnola</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$110  <span class="u-pull-right ">$85</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/aceite.webp" class="imagen-item u-full-width">
+                        <div class="info-card">
+                            <h4>Aceite de Girasol</h4>
+                            <p>Cocinero</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$210  <span class="u-pull-right ">$190</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/choclo.webp" class="imagen-item u-full-width">
+                        <div class="info-card">
+                            <h4>Choclo en granos</h4>
+                            <p>Arcor</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$80  <span class="u-pull-right ">$75</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/arvejas.webp" class="imagen-item u-full-width">
+                    <div class="info-card">
+                        <h4>Arvejas</h4>
+                        <p>Vigente</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$8-  <span class="u-pull-right ">$75</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/salfina.webp" class="imagen-item u-full-width">
+                        <div class="info-card">
+                            <h4>Sal Fina</h4>
+                            <p>Dos Anclas</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$100  <span class="u-pull-right ">$90</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/arrpz.webp" class="imagen-item u-full-width">
+                        <div class="info-card">
+                            <h4>Arroz blanco</h4>
+                            <p>Molinos Ala</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$120  <span class="u-pull-right ">$100</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/harina.webp" class="imagen-item u-full-width">
+                        <div class="info-card">
+                            <h4>Harina 0000</h4>
+                            <p>Pureza</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$120  <span class="u-pull-right ">$100</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="img/mayonesa.webp" class="imagen-item u-full-width">
+                            <div class="info-card">
+                                <h4>Mayonesa</h4>
+                                <p>Natura</p>
+                                <img src="img/estrellas.png">
+                                <p class="precio">$100  <span class="u-pull-right ">$80</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar Al Carrito</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="img/matarazzo.webp" class="imagen-item u-full-width">
+                            <div class="info-card">
+                                <h4>Fideos</h4>
+                                <p>Matarazzo</p>
+                                <img src="img/estrellas.png">
+                                <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar Al Carrito</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+    </div>  
+
+
+    <footer id="footer" class="footer">
+        
+    </footer>
+    <script src="js/Item.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>
